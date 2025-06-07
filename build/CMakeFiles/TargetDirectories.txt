@@ -1,0 +1,3 @@
+/home/lzf/cminus_compiler/build/CMakeFiles/cminus_compiler.dir
+/home/lzf/cminus_compiler/build/CMakeFiles/edit_cache.dir
+/home/lzf/cminus_compiler/build/CMakeFiles/rebuild_cache.dir
