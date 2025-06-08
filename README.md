@@ -11,11 +11,9 @@
 
 ✅ AST 可视化：支持文本格式的语法树输出
 
-### 快速开始
-
 #### 构建项目
 
-##### 克隆项目
+#### 克隆项目
 
 git clone https://github.com/ffanliu/cminus_compiler.git
 cd cminus_compiler
@@ -48,9 +46,9 @@ int main() {
     if (a > 5) {
         return a;
 return 0;
-
+```
 输出结果
-
+```
 Tokens:
 [INT] int
 [ID] main
@@ -77,8 +75,9 @@ Tokens:
 [NUM] 0
 [SEMI] ;
 [RBRACE] }
-
+```
 AST:
+```
 Program
   Function: main (return: int)
     Body:
@@ -88,8 +87,9 @@ Program
         Then:
           Return: a
       Return: 0
+```
 
-项目结构
+### 项目结构
 
 cminus_compiler/
 ├── CMakeLists.txt      # 构建配置文件
